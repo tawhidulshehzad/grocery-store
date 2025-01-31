@@ -4,3 +4,7 @@
 *{
   font-family: "sora", serif;
 }
+
+.card-bg-class {
+  background: linear-gradient(135deg, #25da34 50%, #ffffff 100%);
+}
