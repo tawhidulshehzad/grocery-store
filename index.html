@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
     <title>Grocery-store</title>
+    <link rel="stylesheet" href="style.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css"
       rel="stylesheet"
@@ -92,12 +93,23 @@
     <!--........................ 
     Banner section 
     ...............................-->
-    <section>
-      <h1>Freshness You Can Count On, Prices You’ll Love!</h1>
-      <p>Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got you covered every day!</p>
-      <img src="images/hero-vegetables.png" alt="">
-    </section>
 
-    <main class="md:container mx-auto"></main>
+    <main class="md:container mx-auto">
+      <section class="flex flex-col justify-center">
+        <h1 class="text-center pt-12 font-bold text-5xl">
+          Freshness
+          <span class="text-green-600"
+            >You Can <br />
+            Count</span
+          >
+          On, Prices You’ll Love!
+        </h1>
+        <p class="text-center pt-10 pb-10">
+          Shop your daily essentials at unbeatable prices. From fresh produce to
+          pantry <br> staples, we’ve got you covered every day!
+        </p>
+        <img src="images/hero-vegetables.png" alt="" />
+      </section>
+    </main>
   </body>
 </html>
