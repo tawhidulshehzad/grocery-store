@@ -28,7 +28,8 @@
     </script>
   </head>
   <body>
-    <header class="md:container mx-auto">
+    <header class="container mx-auto">
+      <!-- <header class="md:container mx-auto">
       <div class="navbar bg-base-100">
         <div class="flex-1">
           <div class="dropdown">
@@ -50,9 +51,7 @@
             <li><a>Shope</a></li>
             <li><a>News</a></li>
             <li><a>Contact</a></li>
-          </ul>
-          <div class="flex w-9">
-            <svg
+            <li><svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
@@ -67,27 +66,62 @@
               />
             </svg>
 
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke-width="1.5"
-              stroke="currentColor"
-              class="size-6"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"
-              />
-            </svg>
+            </li>
+          </ul>
+          <div class="flex">
+            
           </div>
         </div>
         <div class="">
           <a class="btn bg-green-600 text-white">Log in</a>
           <a class="btn bg-green-600 text-white">Register</a>
         </div>
-      </div>
+      </div> -->
+      <nav class="bg-white px-4 py-3 flex justify-between items-center">
+        <!-- picture -->
+        <div class="flex items-center">
+          <img src="images/logo-header.png" alt="Logo" class="h-8" />
+        </div>
+
+        <!-- big menu -->
+        <div class="hidden md:flex space-x-6">
+          <a href="#" class="text-gray-700 hover:text-green-700">Product</a>
+          <a href="#" class="text-gray-700 hover:text-green-700">Services</a>
+          <a href="#" class="text-gray-700 hover:text-green-700">Contact Us</a>
+        </div>
+
+        <!-- r section -->
+        <div class="hidden md:flex items-center space-x-4">
+          <button
+            class="border border-green-700 px-4 py-2 rounded text-green-700 hover:bg-green-100"
+          >
+            Login
+          </button>
+          <button
+            class="bg-green-700 text-white px-4 py-2 rounded hover:bg-green-800"
+          >
+            Register
+          </button>
+        </div>
+
+        <!-- small Menu Button -->
+        <button class="md:hidden flex flex-col space-y-1">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="size-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+            />
+          </svg>
+        </button>
+      </nav>
     </header>
 
     <!--........................ 
@@ -98,7 +132,7 @@
       <div class="md:container mx-auto">
         <section class="flex flex-col justify-center">
           <h1
-            class="text-center pt-12 font-bold text-2xl sm:text-3xl lg:text-5xl md:text-4xl"
+            class="text-center pt-12 font-bold text-2xl sm:text-3xl lg:text-5xl md:text-4xl animate-for-banner"
           >
             Freshness
             <span class="text-green-600"
@@ -474,6 +508,22 @@
                     <path
                       d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"
                     ></path>
+                  </svg>
+                </a>
+                <a>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M8.625 12a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H8.25m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H12m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0h-.375M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+                    />
                   </svg>
                 </a>
               </div>

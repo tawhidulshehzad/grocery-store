@@ -8,3 +8,14 @@
 .card-bg-class {
   background: linear-gradient(135deg, #25da34 50%, #ffffff 100%);
 }
+@keyframes banner {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.animate-for-banner {
+  animation: banner 2s ease-in-out;
+}
