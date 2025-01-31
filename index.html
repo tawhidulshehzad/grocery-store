@@ -27,7 +27,7 @@
       };
     </script>
   </head>
-  <body class="relative">
+  <body>
     <header class="md:container mx-auto">
       <div class="navbar bg-base-100">
         <div class="flex-1">
@@ -317,13 +317,38 @@
         </div>
       </section>
     </main>
-    <!-- floating section -->
-
+    <!-- .........................................
+    
+    ..........floating section
+     -->
+    <section class="container relative mx-auto z-10 -bottom-40">
+      <div
+        class="flex md:flex-row justify-around flex-col items-center bg-[#efebe3] rounded-2xl m-4 "
+      >
+        <div>
+          <img src="images/vegetable-busket.png" alt="" />
+        </div>
+        <div class="flex flex-col gap-4 p-4">
+          <div><h1 class="text-4xl font-bold">Get Grocery News!</h1></div>
+          <p>Exclusive training tips, ticks, product deals and more.</p>
+          <input
+            class="bg-white rounded-lg block pt-2 pb-2 pl-2"
+            placeholder="Enter your email..."
+            type="email"
+            name=""
+            id=""
+          />
+          <div>
+            <button class="btn bg-green-600 text-white">Subscribe</button>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- ............
         Footer
         ........................................ -->
-    <footer>
-      <section class="bg-green-600">
+    <footer class="relative z-0">
+      <section class="bg-green-600 pt-40">
         <div class="container mx-auto">
           <footer class="footer text-base-content p-20 justify-between">
             <nav>
